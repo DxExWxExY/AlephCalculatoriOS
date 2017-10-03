@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9433CC7A1F840CC400B9DCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9433CC791F840CC400B9DCD7 /* AppDelegate.swift */; };
+		9433CC7C1F840CC400B9DCD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9433CC7B1F840CC400B9DCD7 /* ViewController.swift */; };
+		9433CC7F1F840CC500B9DCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9433CC7D1F840CC500B9DCD7 /* Main.storyboard */; };
+		9433CC811F840CC500B9DCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9433CC801F840CC500B9DCD7 /* Assets.xcassets */; };
+		9433CC841F840CC500B9DCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9433CC821F840CC500B9DCD7 /* LaunchScreen.storyboard */; };
+		9433CC8F1F840CC500B9DCD7 /* Aleph_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9433CC8E1F840CC500B9DCD7 /* Aleph_CalculatorTests.swift */; };
+		9433CC9A1F840CC500B9DCD7 /* Aleph_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9433CC991F840CC500B9DCD7 /* Aleph_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9433CC8B1F840CC500B9DCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9433CC6E1F840CC400B9DCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9433CC751F840CC400B9DCD7;
+			remoteInfo = "Aleph Calculator";
+		};
+		9433CC961F840CC500B9DCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9433CC6E1F840CC400B9DCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9433CC751F840CC400B9DCD7;
+			remoteInfo = "Aleph Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9433CC761F840CC400B9DCD7 /* Aleph Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aleph Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9433CC791F840CC400B9DCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9433CC7B1F840CC400B9DCD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9433CC7E1F840CC500B9DCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9433CC801F840CC500B9DCD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9433CC831F840CC500B9DCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9433CC851F840CC500B9DCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9433CC8A1F840CC500B9DCD7 /* Aleph CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aleph CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9433CC8E1F840CC500B9DCD7 /* Aleph_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aleph_CalculatorTests.swift; sourceTree = "<group>"; };
+		9433CC901F840CC500B9DCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9433CC951F840CC500B9DCD7 /* Aleph CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aleph CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9433CC991F840CC500B9DCD7 /* Aleph_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aleph_CalculatorUITests.swift; sourceTree = "<group>"; };
+		9433CC9B1F840CC500B9DCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9433CC731F840CC400B9DCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9433CC871F840CC500B9DCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9433CC921F840CC500B9DCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9433CC6D1F840CC400B9DCD7 = {
+			isa = PBXGroup;
+			children = (
+				9433CC781F840CC400B9DCD7 /* Aleph Calculator */,
+				9433CC8D1F840CC500B9DCD7 /* Aleph CalculatorTests */,
+				9433CC981F840CC500B9DCD7 /* Aleph CalculatorUITests */,
+				9433CC771F840CC400B9DCD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9433CC771F840CC400B9DCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9433CC761F840CC400B9DCD7 /* Aleph Calculator.app */,
+				9433CC8A1F840CC500B9DCD7 /* Aleph CalculatorTests.xctest */,
+				9433CC951F840CC500B9DCD7 /* Aleph CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9433CC781F840CC400B9DCD7 /* Aleph Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				9433CC791F840CC400B9DCD7 /* AppDelegate.swift */,
+				9433CC7B1F840CC400B9DCD7 /* ViewController.swift */,
+				9433CC7D1F840CC500B9DCD7 /* Main.storyboard */,
+				9433CC801F840CC500B9DCD7 /* Assets.xcassets */,
+				9433CC821F840CC500B9DCD7 /* LaunchScreen.storyboard */,
+				9433CC851F840CC500B9DCD7 /* Info.plist */,
+			);
+			path = "Aleph Calculator";
+			sourceTree = "<group>";
+		};
+		9433CC8D1F840CC500B9DCD7 /* Aleph CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9433CC8E1F840CC500B9DCD7 /* Aleph_CalculatorTests.swift */,
+				9433CC901F840CC500B9DCD7 /* Info.plist */,
+			);
+			path = "Aleph CalculatorTests";
+			sourceTree = "<group>";
+		};
+		9433CC981F840CC500B9DCD7 /* Aleph CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9433CC991F840CC500B9DCD7 /* Aleph_CalculatorUITests.swift */,
+				9433CC9B1F840CC500B9DCD7 /* Info.plist */,
+			);
+			path = "Aleph CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9433CC751F840CC400B9DCD7 /* Aleph Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9433CC9E1F840CC500B9DCD7 /* Build configuration list for PBXNativeTarget "Aleph Calculator" */;
+			buildPhases = (
+				9433CC721F840CC400B9DCD7 /* Sources */,
+				9433CC731F840CC400B9DCD7 /* Frameworks */,
+				9433CC741F840CC400B9DCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aleph Calculator";
+			productName = "Aleph Calculator";
+			productReference = 9433CC761F840CC400B9DCD7 /* Aleph Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9433CC891F840CC500B9DCD7 /* Aleph CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9433CCA11F840CC500B9DCD7 /* Build configuration list for PBXNativeTarget "Aleph CalculatorTests" */;
+			buildPhases = (
+				9433CC861F840CC500B9DCD7 /* Sources */,
+				9433CC871F840CC500B9DCD7 /* Frameworks */,
+				9433CC881F840CC500B9DCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9433CC8C1F840CC500B9DCD7 /* PBXTargetDependency */,
+			);
+			name = "Aleph CalculatorTests";
+			productName = "Aleph CalculatorTests";
+			productReference = 9433CC8A1F840CC500B9DCD7 /* Aleph CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9433CC941F840CC500B9DCD7 /* Aleph CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9433CCA41F840CC500B9DCD7 /* Build configuration list for PBXNativeTarget "Aleph CalculatorUITests" */;
+			buildPhases = (
+				9433CC911F840CC500B9DCD7 /* Sources */,
+				9433CC921F840CC500B9DCD7 /* Frameworks */,
+				9433CC931F840CC500B9DCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9433CC971F840CC500B9DCD7 /* PBXTargetDependency */,
+			);
+			name = "Aleph CalculatorUITests";
+			productName = "Aleph CalculatorUITests";
+			productReference = 9433CC951F840CC500B9DCD7 /* Aleph CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9433CC6E1F840CC400B9DCD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Diego Rodriguez";
+				TargetAttributes = {
+					9433CC751F840CC400B9DCD7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					9433CC891F840CC500B9DCD7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9433CC751F840CC400B9DCD7;
+					};
+					9433CC941F840CC500B9DCD7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9433CC751F840CC400B9DCD7;
+					};
+				};
+			};
+			buildConfigurationList = 9433CC711F840CC400B9DCD7 /* Build configuration list for PBXProject "Aleph Calculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9433CC6D1F840CC400B9DCD7;
+			productRefGroup = 9433CC771F840CC400B9DCD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9433CC751F840CC400B9DCD7 /* Aleph Calculator */,
+				9433CC891F840CC500B9DCD7 /* Aleph CalculatorTests */,
+				9433CC941F840CC500B9DCD7 /* Aleph CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9433CC741F840CC400B9DCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9433CC841F840CC500B9DCD7 /* LaunchScreen.storyboard in Resources */,
+				9433CC811F840CC500B9DCD7 /* Assets.xcassets in Resources */,
+				9433CC7F1F840CC500B9DCD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9433CC881F840CC500B9DCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9433CC931F840CC500B9DCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9433CC721F840CC400B9DCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9433CC7C1F840CC400B9DCD7 /* ViewController.swift in Sources */,
+				9433CC7A1F840CC400B9DCD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9433CC861F840CC500B9DCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9433CC8F1F840CC500B9DCD7 /* Aleph_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9433CC911F840CC500B9DCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9433CC9A1F840CC500B9DCD7 /* Aleph_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9433CC8C1F840CC500B9DCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9433CC751F840CC400B9DCD7 /* Aleph Calculator */;
+			targetProxy = 9433CC8B1F840CC500B9DCD7 /* PBXContainerItemProxy */;
+		};
+		9433CC971F840CC500B9DCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9433CC751F840CC400B9DCD7 /* Aleph Calculator */;
+			targetProxy = 9433CC961F840CC500B9DCD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9433CC7D1F840CC500B9DCD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9433CC7E1F840CC500B9DCD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9433CC821F840CC500B9DCD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9433CC831F840CC500B9DCD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9433CC9C1F840CC500B9DCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9433CC9D1F840CC500B9DCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9433CC9F1F840CC500B9DCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aleph Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DxExWxExY.Aleph-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9433CCA01F840CC500B9DCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aleph Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DxExWxExY.Aleph-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9433CCA21F840CC500B9DCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aleph CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DxExWxExY.Aleph-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aleph Calculator.app/Aleph Calculator";
+			};
+			name = Debug;
+		};
+		9433CCA31F840CC500B9DCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aleph CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DxExWxExY.Aleph-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aleph Calculator.app/Aleph Calculator";
+			};
+			name = Release;
+		};
+		9433CCA51F840CC500B9DCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aleph CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DxExWxExY.Aleph-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aleph Calculator";
+			};
+			name = Debug;
+		};
+		9433CCA61F840CC500B9DCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aleph CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DxExWxExY.Aleph-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aleph Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9433CC711F840CC400B9DCD7 /* Build configuration list for PBXProject "Aleph Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9433CC9C1F840CC500B9DCD7 /* Debug */,
+				9433CC9D1F840CC500B9DCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9433CC9E1F840CC500B9DCD7 /* Build configuration list for PBXNativeTarget "Aleph Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9433CC9F1F840CC500B9DCD7 /* Debug */,
+				9433CCA01F840CC500B9DCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9433CCA11F840CC500B9DCD7 /* Build configuration list for PBXNativeTarget "Aleph CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9433CCA21F840CC500B9DCD7 /* Debug */,
+				9433CCA31F840CC500B9DCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9433CCA41F840CC500B9DCD7 /* Build configuration list for PBXNativeTarget "Aleph CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9433CCA51F840CC500B9DCD7 /* Debug */,
+				9433CCA61F840CC500B9DCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9433CC6E1F840CC400B9DCD7 /* Project object */;
+}
